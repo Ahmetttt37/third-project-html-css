@@ -1,0 +1,47 @@
+body{
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form input{
+    width: 700px;
+    height: 50px;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 30px;
+    padding: 3px 30px;
+    /* border: none; */
+    position: relative;
+    background-color: whitesmoke; */
+}
+form input:hover{
+    transform: scale(1.1);
+    z-index: 1;
+
+    
+}
+.icons{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    transform: scale(1);
+    z-index: 2;
+    /* justify-content: space-between;  */
+}
+.icons1{
+    margin-right: 630px;
+    margin-top: 1px;
+    text-align: center;
+    color: grey;
+
+}
+.icons2{
+    margin-left: -1%;
+    display: flex;
+    gap: 7px;
+    color: blue;
+}

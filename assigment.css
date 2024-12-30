@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.box2{
+    display: flex; 
+    background-color: blueviolet;
+    height: 100vh;
+}
+img{
+    width: 600px;
+    position: relative; 
+    left: 15px;
+    height: 530px;
+    margin: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    /* margin-left: 60px; */
+}
+.back{
+    margin-top: 150px;
+    margin-left: 120px;
+    position: absolute;
+    color: white;
+    bottom: 50%;
+}
+.back h1{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 80px;
+}
+.back p{
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+span{
+    color: blueviolet;
+}
+.box5{
+    background-color: white;
+    width: 550px;
+    height: 490px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-top: 40px;
+    position: absolute;
+    left: 50%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.box h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.box p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.inp{
+    margin-top: 30px;
+}
+.name{
+    width: 200px;
+    height: 30px;
+}
+.text{
+    width: 200px;
+    height: 30px;
+    margin-left: 24px;
+}
+.email{
+    width: 430px;
+    height: 30px;
+    margin-top: 30px;
+}
+.password{
+    width: 430px;
+    height: 30px;
+    margin-top: 30px;
+}
+.accept{
+    margin-top: 30px;
+}
+.btn{
+    background-color: blueviolet;
+    border: none;
+    padding: 10px 178px;
+    color: white;
+    margin-top: 30px;
+}
+.btn:hover{
+    background-color: pink;
+    border: none;
+    padding: 10px 178px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
